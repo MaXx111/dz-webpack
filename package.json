@@ -1,0 +1,32 @@
+{
+  "name": "dz-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaXx111/dz-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaXx111/dz-webpack/issues"
+  },
+  "homepage": "https://github.com/MaXx111/dz-webpack#readme",
+  "devDependencies": {
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.2",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
